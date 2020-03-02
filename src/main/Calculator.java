@@ -111,20 +111,64 @@ public class Calculator {
         return new Fraction(n, d);
     }
 
+    /**
+     * Add doubles double.
+     *
+     * @param a the a
+     * @param b the b
+     * @return the double
+     */
     public static double addDoubles(double a, double b) {
         return a + b;
     }
 
+    /**
+     * Sub doubles double.
+     *
+     * @param a the a
+     * @param b the b
+     * @return the double
+     */
     public static double subDoubles(double a, double b) {
         return a - b;
     }
 
+    /**
+     * Mult doubles double.
+     *
+     * @param a the a
+     * @param b the b
+     * @return the double
+     */
     public static double multDoubles(double a, double b) {
         return a * b;
     }
 
+    /**
+     * Div doubles double.
+     *
+     * @param a the a
+     * @param b the b
+     * @return the double
+     */
     public static double divDoubles(double a, double b) {
         return a / b;
+    }
+
+    /**
+     * Factorial long.
+     *
+     * @param n the n
+     * @return the long
+     */
+    public static long factorial(int n) {
+        if (n < 0) {
+            return 0;
+        } else if (n < 2) {
+            return 1;
+        } else {
+            return factorial(n - 1) * n;
+        }
     }
 
 
