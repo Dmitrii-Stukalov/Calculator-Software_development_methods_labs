@@ -110,5 +110,23 @@ public class Calculator {
         int d = a.getDenominator() * b.getNumerator();
         return new Fraction(n, d);
     }
+
+    public static double addDoubles(double a, double b) {
+        return a + b;
+    }
+
+    public static double subDoubles(double a, double b) {
+        return a - b;
+    }
+
+    public static double multDoubles(double a, double b) {
+        return a * b;
+    }
+
+    public static double divDoubles(double a, double b) {
+        return a / b;
+    }
+
+
 }
 
