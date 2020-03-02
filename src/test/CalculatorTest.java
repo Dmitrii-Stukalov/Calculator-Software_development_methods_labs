@@ -81,27 +81,39 @@ public class CalculatorTest {
                 Calculator.divFractions(a, b).getDenominator() == 2);
     }
 
+    /**
+     * Test add doubles.
+     */
     @Test
     public void test_addDoubles() {
         Assert.assertEquals(1.1, Calculator.addDoubles(1.0, 0.1), 1e-6);
-        Assert.assertEquals(2.1,Calculator.addDoubles(Calculator.addDoubles(1.0, 0.1), 1.0), 1e-6);
+        Assert.assertEquals(2.1, Calculator.addDoubles(Calculator.addDoubles(1.0, 0.1), 1.0), 1e-6);
     }
 
+    /**
+     * Test sub doubles.
+     */
     @Test
     public void test_subDoubles() {
         Assert.assertEquals(0.9, Calculator.subDoubles(1.0, 0.1), 1e-6);
-        Assert.assertEquals(0.8,Calculator.subDoubles(Calculator.subDoubles(1.0, 0.1), 0.1), 1e-6);
+        Assert.assertEquals(0.8, Calculator.subDoubles(Calculator.subDoubles(1.0, 0.1), 0.1), 1e-6);
     }
 
+    /**
+     * Test mult doubles.
+     */
     @Test
     public void test_multDoubles() {
         Assert.assertEquals(0.1, Calculator.multDoubles(1.0, 0.1), 1e-6);
-        Assert.assertEquals(0.1,Calculator.multDoubles(Calculator.multDoubles(1.0, 0.1), 1.0), 1e-6);
+        Assert.assertEquals(0.1, Calculator.multDoubles(Calculator.multDoubles(1.0, 0.1), 1.0), 1e-6);
     }
 
+    /**
+     * Test div doubles.
+     */
     @Test
     public void test_divDoubles() {
         Assert.assertEquals(10.0, Calculator.divDoubles(1.0, 0.1), 1e-6);
-        Assert.assertEquals(10.0,Calculator.divDoubles(Calculator.divDoubles(1.0, 0.1), 1.0), 1e-6);
+        Assert.assertEquals(10.0, Calculator.divDoubles(Calculator.divDoubles(1.0, 0.1), 1.0), 1e-6);
     }
 }
