@@ -116,4 +116,17 @@ public class CalculatorTest {
         Assert.assertEquals(10.0, Calculator.divDoubles(1.0, 0.1), 1e-6);
         Assert.assertEquals(10.0, Calculator.divDoubles(Calculator.divDoubles(1.0, 0.1), 1.0), 1e-6);
     }
+
+    /**
+     * Test factorial.
+     */
+    @Test
+    public void test_factorial() {
+        Assert.assertEquals(1L, Calculator.factorial(1));
+        Assert.assertEquals(2L, Calculator.factorial(2));
+        Assert.assertEquals(6L, Calculator.factorial(3));
+        Assert.assertEquals(24L, Calculator.factorial(4));
+        Assert.assertEquals(120L, Calculator.factorial(5));
+        Assert.assertEquals(2432902008176640000L, Calculator.factorial(20));
+    }
 }
