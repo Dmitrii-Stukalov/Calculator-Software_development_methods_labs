@@ -22,6 +22,10 @@
           <option name="url" value="https://github.com/Dmitrii-Stukalov/Calculator-Software_development_methods_labs.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/itmo-java-basics-2020/task-3-hashtable-classes-inner-classes-class-object-Dmitrii-Stukalov.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/IdeaProjects" />
