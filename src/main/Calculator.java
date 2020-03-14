@@ -110,5 +110,78 @@ public class Calculator {
         int d = a.getDenominator() * b.getNumerator();
         return new Fraction(n, d);
     }
+
+    /**
+     * Add doubles double.
+     *
+     * @param a the a
+     * @param b the b
+     * @return the double
+     */
+    public static double addDoubles(double a, double b) {
+        return a + b;
+    }
+
+    /**
+     * Sub doubles double.
+     *
+     * @param a the a
+     * @param b the b
+     * @return the double
+     */
+    public static double subDoubles(double a, double b) {
+        return a - b;
+    }
+
+    /**
+     * Mult doubles double.
+     *
+     * @param a the a
+     * @param b the b
+     * @return the double
+     */
+    public static double multDoubles(double a, double b) {
+        return a * b;
+    }
+
+    /**
+     * Div doubles double.
+     *
+     * @param a the a
+     * @param b the b
+     * @return the double
+     */
+    public static double divDoubles(double a, double b) {
+        return a / b;
+    }
+
+    /**
+     * Factorial long.
+     *
+     * @param n the n
+     * @return the long
+     */
+    public static long factorial(int n) {
+        if (n < 0) {
+            return 0;
+        } else if (n < 2) {
+            return 1;
+        } else {
+            return factorial(n - 1) * n;
+        }
+    }
+
+
+    /**
+     * Root double.
+     *
+     * @param powerOfRoot the power of root
+     * @param value       the value
+     * @return the double
+     */
+    public static double root(int powerOfRoot, double value) {
+        return Math.pow(value, (double) 1 / powerOfRoot);
+    }
+
 }
 
