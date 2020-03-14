@@ -1,3 +1,6 @@
 [submodule "Calculator"]
 	path = Calculator
 	url = https://github.com/HouariZegai/Calculator.git
+[submodule "Swing-Calculator"]
+	path = Swing-Calculator
+	url = https://github.com/luthra2059/Swing-Calculator.git
