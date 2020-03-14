@@ -172,16 +172,5 @@ public class Calculator {
     }
 
 
-    /**
-     * Root double.
-     *
-     * @param powerOfRoot the power of root
-     * @param value       the value
-     * @return the double
-     */
-    public static double root(int powerOfRoot, double value) {
-        return Math.pow(value, (double) 1 / powerOfRoot);
-    }
-
 }
 

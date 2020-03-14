@@ -129,16 +129,4 @@ public class CalculatorTest {
         Assert.assertEquals(120L, Calculator.factorial(5));
         Assert.assertEquals(2432902008176640000L, Calculator.factorial(20));
     }
-
-    /**
-     * Test root.
-     */
-    @Test
-    public void test_root() {
-        Assert.assertEquals(0.5, Calculator.root(2, 0.25), 1e-6);
-        Assert.assertEquals(0.5, Calculator.root(3, 0.125), 1e-6);
-        Assert.assertEquals(0.6910423, Calculator.root(3, 0.33), 1e-6);
-        Assert.assertEquals(1.0, Calculator.root(100, 1.0), 1e-6);
-
-    }
 }
