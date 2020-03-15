@@ -1,5 +1,7 @@
 package main;
 
+import test.CalculatorTest;
+
 /**
  * The type Main.
  */
@@ -24,10 +26,7 @@ public class Main {
 //        Calculator.multFractions(a, b).Show();
 //        Calculator.divFractions(a, b).Show();
 
-        Fraction a = new Fraction(8779369, 490000);
-        Fraction b = new Fraction(7921206, 122500);
-        Fraction c = new Fraction(11776806, 122500);
-        Calculator.addFractions(a, b).Show();
+
 
     }
 }
